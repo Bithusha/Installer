@@ -1,0 +1,59 @@
+import os,sys,time,random
+def print_slow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.1)
+os.system("clear")
+os.system("toilet -f mono12 -F border Tool")
+print_slow("Choose an option('0' for exit'),ls for see downloaded tools")
+print(" ")
+print('\033[1;31m'"                    1)Tool-X")
+print("                    2)Social-Phish")
+print("                    3)Camera-Hack")
+print("                    4)WhatsApp-Spam")
+print("                    5)SMS-Spam")
+print("                    6)Web-Go")
+print("                    7)Amazing-Tool")
+print("                    8)Java-Script")
+print("                    9)Root")
+print("                   10)Virus")
+print("                   11)Metasploit")
+print("                   12)Games")
+marks=int(input("Enter number>>"))
+if(marks==0):
+        os.system("echo Good bye! && exit")
+if(marks>13):
+        os.system("echo Wrong option! && python File")
+if(marks==1):
+        os.system("git clone https://github.com/rajkumardusad/Tool-X && python File")
+if(marks==11):
+       os.system("pkg install metasploit && python File")
+if(marks==8):
+       os.system("npm install")
+if(marks==8):
+       print_slow("now type npm to start")
+if(marks==8):
+       os.system("python File")
+if(marks==12):
+       os.system("pkg install moon-buggy")
+if(marks==12):
+       print_slow("now type moon-buggy to start game")
+if(marks==12):
+       os.system("python File")
+if(marks==6):
+       os.system("git clone https://github.com/Bithusha/WebGo && xdg-open https://youtu.be/3OSDlcrUdaU && python File")
+if(marks==7):
+       os.system("git clone https://github.com/Bithusha/Amazing-Tool && xdg-open https://youtu.be/Y50IvdAYFhY && python File")
+if(marks==2):
+       os.system("git clone https://github.com/xHak9x/SocialPhish && python File")
+if(marks==3):
+       os.system("git clone https://github.com/noob-hackers/grabcam && python File")
+if(marks==9):
+       os.system("git clone https://github.com/RazorKenway/Root && python File")
+if(marks==4):
+       os.system("xdg-open https://youtu.be/bGpUEgUJRAw && python File")
+if(marks==5):
+       os.system("git clone https://github.com/Bithusha/Bomb-Master && python File")
+if(marks==10):
+       os.system("git clone https://github.com/ZechBron/zVirus-Gen && python File")
