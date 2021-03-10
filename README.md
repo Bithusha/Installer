@@ -10,3 +10,4 @@ Install all useful tools in termux
 You must install python and git on your termux.
 Subscribe we on YouTube.
 <a href=https://youtube.com/channel/UCWNRCD8AS0MXcW5CrqC3EEQ>Subscribe</a>
+# Created by SL Phone Technician.
